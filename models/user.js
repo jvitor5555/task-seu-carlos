@@ -1,9 +1,7 @@
-const { DataTypes } = require('sequelize'); // tipos de dados do sequelize
-const sequelize = require('../config/config'); // estância do sequelize
+const { DataTypes } = require('sequelize');
+const sequelize = require('../config/config');
 
-console.log(sequelize)
-
-const User = sequelize.define('User', { // o Sequelize por padrão pluraliza as tabelas e usa mínusculas - users
+const User = sequelize.define('User', {
 
     
 

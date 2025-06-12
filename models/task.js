@@ -1,7 +1,7 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config/config');
 
-const Task = sequelize.define('Task', { // o Sequelize por padrão pluraliza as tabelas e usa mínusculas - tasks
+const Task = sequelize.define('Task', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
